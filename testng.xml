@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="Test_cases.TC_01"/>
+      <class name="Test_cases.TC_02"/>
+      <class name="Test_cases.TC_03"/>      
+      <class name="Test_cases.TC_04"/>
+      <class name="Test_cases.TC_05"/>
+      <class name="Test_cases.TC_06"/>
+      <class name="Test_cases.TC_07"/>        
+    </classes>
+  </test> 
+</suite> 

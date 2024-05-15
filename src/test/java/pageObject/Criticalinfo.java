@@ -120,8 +120,7 @@ public class Criticalinfo extends BaseClass {
 	}
 
 	public void decleration() {
-		try {
-			
+		try {			
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("arguments[0].scrollIntoView();", checkboxscroll);
 			checkbox.click();
